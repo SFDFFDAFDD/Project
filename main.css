@@ -1,0 +1,19 @@
+button {
+    width: 240px;
+    height: 90px;
+    background-color: aqua;
+    color: blue;
+    font-size: 40px;
+    font-weight: bold;
+    border: 5px solid rgb(243, 19, 19);
+    cursor:  pointer;
+}
+button:hover
+{
+background-color: blueviolet;
+color:blue;
+transition: all 0.8s ease 0s;
+transform: rotate(90deg);
+transform: translateY(50px);
+
+}
